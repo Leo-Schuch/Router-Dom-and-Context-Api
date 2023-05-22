@@ -1,10 +1,10 @@
 import { Col, Row } from "react-grid-system";
 import { Tipografia } from "../../componentes/Tipografia/Tipografia";
 
-import cliente from './assets/cliente.png'
-import freelancer from './assets/freela.png'
+import cliente from "./assets/cliente.png";
+import freela from "./assets/freela.png";
 
-const selecaoCliente = () => {
+const SelecaoCliente = () => {
   return (
     <>
       <Tipografia variante="h1" componente="h1">
@@ -17,14 +17,12 @@ const selecaoCliente = () => {
         <Col md={6} sm={12}>
           <img src={cliente} alt=""></img>
         </Col>
-      </Row>
-      <Row>
         <Col md={6} sm={12}>
-          <img src={freelancer} alt=""></img>
+          <img src={freela} alt=""></img>
         </Col>
       </Row>
     </>
   );
 };
 
-export default selecaoCliente;
+export default SelecaoCliente;
